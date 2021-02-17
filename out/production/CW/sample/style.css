@@ -1,0 +1,37 @@
+#pane{
+    -fx-background-image: url('home.jpg');
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1200 650;
+    -fx-background-position: center center;
+}
+#Button{
+    -fx-background-color: linear-gradient(black,slategrey);
+    -fx-font-family: 'Comic Sans MS';
+    -fx-font-weight: bolder;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-min-width: 350px;
+    -fx-min-height: 50px;
+    -fx-border-radius: 100px;
+    -fx-background-radius: 100px;
+}
+#ButtonHelp{
+    -fx-background-color:linear-gradient(yellow,yellowgreen,green);
+    -fx-font-family: 'Comic Sans MS'; 
+    -fx-font-weight: bolder; 
+    -fx-border-color: black;
+    -fx-min-width: 120px;
+    -fx-min-height: 50px;
+    -fx-border-radius: 100px;
+    -fx-background-radius: 100px;
+}
+#ButtonQuit{
+    -fx-background-color:linear-gradient(darkred,red);
+    -fx-font-family: 'Comic Sans MS'; 
+    -fx-font-weight: bolder;
+    -fx-border-color: black;
+    -fx-min-width: 120px;
+    -fx-min-height: 50px;
+    -fx-border-radius: 100px;
+    -fx-background-radius: 100px;
+}

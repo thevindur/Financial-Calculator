@@ -1,0 +1,109 @@
+Button{
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+}
+#btnRow1,#btnRow2{
+    -fx-font-size: 15px;
+    -fx-border-color: black;
+    -fx-text-fill: white;
+    -fx-min-width: 190px;
+    -fx-min-height: 115px;
+    -fx-font-weight: bolder;
+}
+#btnRow1{
+    -fx-background-color: linear-gradient(black,slategrey);
+}
+#btnRow2{
+    -fx-background-color: linear-gradient(darkblue,blue,deepskyblue);
+}
+#btnCal{
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: green;
+}
+#buttonClrAll{
+    -fx-font-size: 15px;
+    -fx-text-fill: darkred;
+    -fx-font-weight: bolder;
+}
+#buttonClr{
+    -fx-font-size: 20px;
+    -fx-text-fill: black;
+    -fx-font-weight: bolder;
+}
+#Form{
+    -fx-background-color: linear-gradient(black,slategrey,gray);
+    -fx-background-image:url("form.jpg") ;
+    -fx-background-repeat: stretch;
+    -fx-background-size: 600 400;
+    -fx-background-position: center center;
+}
+#Result{
+    -fx-text-fill: white;
+    -fx-background-image:url("result.jpg") ;
+
+}
+#txtForm{
+    -fx-border-color: black;
+}
+Label{
+    -fx-font-weight: bold;
+}
+Text{
+    -fx-font-family:"Times New Roman";
+    -fx-font-size: 125%;
+}
+#lblResult{
+    -fx-font-family: 'Comic Sans MS';
+    -fx-font-size: 25px;
+    -fx-text-fill: rgba(191,3,0,0.82);
+}
+#btnSave{
+    -fx-min-width: 200px;
+    -fx-min-height: 50px;
+    -fx-background-radius: 100px;
+    -fx-background-color: linear-gradient(yellow,yellowgreen,green);
+    -fx-border-color: black;
+    -fx-border-radius: 100px;
+    -fx-font-size: 15px;
+}
+Button{
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+}
+#HelpBgImage{
+    -fx-background-image: url("help.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1900 990;
+    -fx-background-position: center center;
+}
+#lblHelp{
+    -fx-font-weight: bolder;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 150%;
+    -fx-text-fill: darkred;
+}
+#lblHelpMain{
+    -fx-font-weight: bolder;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 30px;
+    -fx-text-fill: green;
+}
+#btnHelpRow{
+    -fx-background-color: linear-gradient(black,slategrey);
+    -fx-font-size: 15px;
+    -fx-border-color: black;
+    -fx-text-fill: white;
+    -fx-min-width: 190px;
+    -fx-min-height: 140px;
+    -fx-font-weight: bolder;
+}
+#btnHelpRow1{
+    -fx-background-color: linear-gradient(darkblue,blue,deepskyblue);
+    -fx-font-size: 15px;
+    -fx-border-color: black;
+    -fx-text-fill: white;
+    -fx-min-width: 190px;
+    -fx-min-height: 120px;
+    -fx-font-weight: bolder;
+}
